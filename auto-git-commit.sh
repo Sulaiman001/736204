@@ -1,6 +1,7 @@
 #!/bin/bash
+DATE_FMT="+%Y-%m-%d %H:%M:%S"
 DRUSH="/usr/local/bin/drush"
-COMMITMSG="Scripted auto-commit on change (%d) by Shell"
+COMMITMSG="Scripted auto-commit on $DATE_FMT by Shell"
 WWW="/home/tmwgroups/www"
 cd $WWW
 $DRUSH sql-dump > $WWW/db_backup/default.sql
