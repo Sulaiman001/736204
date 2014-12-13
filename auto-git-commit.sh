@@ -1,5 +1,5 @@
 #!/bin/bash
-DATE_FMT="+%Y-%m-%d %H:%M:%S"
+DATE_FMT=$(date)
 DRUSH="/usr/local/bin/drush"
 COMMITMSG="Scripted auto-commit on $DATE_FMT by Shell"
 WWW="/home/tmwgroups/www"
