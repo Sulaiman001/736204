@@ -1,0 +1,28 @@
+name = TMW Personal Themes
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+plugins[panels][layouts] = layouts
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/animate.min.css
+stylesheets[all][] = css/jquery.mCustomScrollbar.css
+stylesheets[all][] = css/colors/DarkBlue.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/prettyPhoto.css
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.cycle2.min.js
+scripts[] = js/jquery.mixitup.min.js
+scripts[] = js/HeadImage.js
+scripts[] = js/easyResponsiveTabs.min.js
+scripts[] = js/jquery.mCustomScrollbar.concat.min.js
+scripts[] = js/jquery.prettyPhoto.js
+scripts[] = js/main.js
+
+regions[left] = Left
+regions[right] = Right
+regions[content] = Content

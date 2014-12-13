@@ -1,0 +1,527 @@
+//colors
+$color_lochmara_approx: #0088cc;
+$color_cerulean_approx: #0099e6;
+$color_deep_cerulean_approx: #0077b3;
+$white: #ffffff;
+$black_25: rgba(0, 0, 0, 0.25);
+$color_dodger_blue_approx: #00aaff;
+$color_storm_dust_approx: #666;
+$color_allports_approx: #006da3;
+$color_orient_approx: #005580;
+
+//@extend-elements
+//original selectors
+//.btn-primary, .pagination > .active > a, body.dark .pagination > .active > a
+%extend_1 {
+	border-color: $color_lochmara_approx !important;
+	color: $white;
+	//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: 0 -1px 0 $black_25;
+	background-color: $color_lochmara_approx;
+	border-color: $color_lochmara_approx;
+}
+
+
+h3 {
+	color: $color_lochmara_approx;
+}
+h4 {
+	color: $color_lochmara_approx;
+}
+h5 {
+	color: $color_lochmara_approx;
+}
+a {
+	color: $color_lochmara_approx;
+	&:hover {
+		color: $color_cerulean_approx;
+	}
+	&:active {
+		color: $color_deep_cerulean_approx;
+	}
+}
+.alternative-font {
+	color: $color_lochmara_approx;
+}
+ul {
+	&.nav-pills > li.active > a {
+		background-color: $color_lochmara_approx;
+		&:hover {
+			background-color: $color_lochmara_approx;
+		}
+		&:focus {
+			background-color: $color_lochmara_approx;
+		}
+	}
+	&.list.icons li i {
+		color: $color_lochmara_approx;
+	}
+	&.history li .featured-box .box-content {
+		border-top-color: $color_lochmara_approx;
+	}
+}
+.label-primary {
+	background-color: $color_lochmara_approx;
+}
+.btn-primary {
+	@extend %extend_1;
+	&:hover {
+		border-color: $color_cerulean_approx;
+		background-color: $color_cerulean_approx;
+	}
+	&:active {
+		border-color: $color_deep_cerulean_approx;
+		background-color: $color_deep_cerulean_approx;
+	}
+	&:focus {
+		border-color: $color_deep_cerulean_approx;
+		background-color: $color_deep_cerulean_approx;
+	}
+}
+.progress-bar-primary {
+	background-color: $color_lochmara_approx;
+}
+section {
+	&.highlight {
+		background-color: $color_lochmara_approx !important;
+		border-color: $color_deep_cerulean_approx !important;
+	}
+	&.page-top {
+		h2 {
+			border-bottom-color: $color_lochmara_approx;
+		}
+		&.custom-product {
+			background-color: $color_deep_cerulean_approx;
+			border-top-color: $color_lochmara_approx;
+		}
+	}
+	&.toggle {
+		label {
+			color: $color_lochmara_approx;
+			border-left-color: $color_lochmara_approx;
+		}
+		&.active > label {
+			background-color: $color_lochmara_approx;
+			border-color: $color_lochmara_approx;
+			color: #FFF;
+		}
+	}
+	&.video blockquote i.fa-quote-left {
+		color: $color_lochmara_approx;
+	}
+	&.timeline .timeline-box {
+		&.left:before {
+			background: $color_lochmara_approx;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 0 0 3px $white, 0 0 0 6px $color_lochmara_approx;
+		}
+		&.right:before {
+			background: $color_lochmara_approx;
+			//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: 0 0 0 3px $white, 0 0 0 6px $color_lochmara_approx;
+		}
+	}
+}
+.feature-box {
+	.feature-box-icon {
+		background-color: $color_lochmara_approx;
+	}
+	&.secundary .feature-box-icon i.fa {
+		color: $color_lochmara_approx;
+	}
+}
+.thumb-info {
+	.thumb-info-type {
+		background-color: $color_lochmara_approx;
+	}
+	.thumb-info-action-icon {
+		background-color: $color_lochmara_approx;
+	}
+}
+.inverted {
+	background-color: $color_lochmara_approx;
+}
+.tabs {
+	&.tabs-vertical {
+		&.tabs-left ul.nav-tabs li {
+			a:hover {
+				border-left-color: $color_lochmara_approx;
+			}
+			&.active a {
+				border-left-color: $color_lochmara_approx;
+				&:hover {
+					border-left-color: $color_lochmara_approx;
+				}
+				&:focus {
+					border-left-color: $color_lochmara_approx;
+				}
+			}
+		}
+		&.tabs-right ul.nav-tabs li {
+			a:hover {
+				border-right-color: $color_lochmara_approx;
+			}
+			&.active a {
+				border-right-color: $color_lochmara_approx;
+				&:hover {
+					border-right-color: $color_lochmara_approx;
+				}
+				&:focus {
+					border-right-color: $color_lochmara_approx;
+				}
+			}
+		}
+	}
+	ul.nav-tabs {
+		a {
+			color: $color_lochmara_approx;
+			&:hover {
+				color: $color_lochmara_approx;
+				border-top-color: $color_lochmara_approx;
+			}
+			&:focus {
+				border-top-color: $color_lochmara_approx;
+			}
+		}
+		li.active a {
+			border-top-color: $color_lochmara_approx;
+			color: $color_lochmara_approx;
+		}
+		&.nav-justified a {
+			&:hover {
+				border-top-color: $color_lochmara_approx;
+			}
+			&:focus {
+				border-top-color: $color_lochmara_approx;
+			}
+		}
+	}
+	&.tabs-bottom ul.nav-tabs li {
+		a:hover {
+			border-bottom-color: $color_lochmara_approx;
+		}
+		&.active a {
+			border-bottom-color: $color_lochmara_approx;
+			&:hover {
+				border-bottom-color: $color_lochmara_approx;
+			}
+			&:focus {
+				border-bottom-color: $color_lochmara_approx;
+			}
+		}
+	}
+}
+.panel-group {
+	.panel-heading a {
+		color: $color_lochmara_approx;
+	}
+	&.secundary .panel-heading {
+		background-color: $color_lochmara_approx !important;
+	}
+}
+#header {
+	nav {
+		ul.nav-main {
+			li {
+				&.dropdown {
+					&:hover {
+						a {
+							color: #FFF;
+							background-color: $color_lochmara_approx !important;
+						}
+						ul.dropdown-menu li > a {
+							background: none !important;
+							&:hover {
+								background: $color_cerulean_approx !important;
+							}
+						}
+					}
+					&.open .dropdown-toggle {
+						color: #FFF;
+						background-color: $color_lochmara_approx !important;
+					}
+				}
+				&.active a {
+					color: #FFF;
+					background-color: $color_lochmara_approx !important;
+				}
+				> a:hover {
+					color: #FFF;
+					background-color: $color_lochmara_approx !important;
+				}
+			}
+			ul.dropdown-menu {
+				color: #FFF;
+				background-color: $color_lochmara_approx !important;
+				color: $white;
+				//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				text-shadow: 0 -1px 0 $black_25;
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+				&:hover {
+					border-color: $color_cerulean_approx;
+					background-color: $color_cerulean_approx;
+				}
+				&:active {
+					border-color: $color_deep_cerulean_approx;
+					background-color: $color_deep_cerulean_approx;
+				}
+				&:focus {
+					border-color: $color_deep_cerulean_approx;
+					background-color: $color_deep_cerulean_approx;
+				}
+				li:hover > a {
+					background-color: $color_dodger_blue_approx !important;
+				}
+			}
+		}
+		&.mega-menu ul.nav-main li.mega-menu-item ul.dropdown-menu {
+			border-top-color: $color_lochmara_approx;
+		}
+	}
+	&.darken-top-border {
+		border-top: 5px solid $color_deep_cerulean_approx !important;
+	}
+	&.single-menu nav ul.nav-main li.active > a {
+		border-top: 5px solid $color_lochmara_approx;
+	}
+	&.colored .header-top {
+		background-color: $color_lochmara_approx;
+		ul.nav-top li a:hover {
+			background-color: $color_cerulean_approx !important;
+		}
+	}
+	&.flat-menu nav ul.nav-main li {
+		> a {
+			color: $color_storm_dust_approx;
+			&:hover {
+				color: #FFF;
+				background-color: $color_lochmara_approx !important;
+			}
+		}
+		&.active > a {
+			color: $color_storm_dust_approx;
+			color: $color_lochmara_approx;
+			background-color: transparent !important;
+		}
+		&.dropdown:hover a {
+			color: #FFF;
+			background-color: $color_lochmara_approx !important;
+		}
+	}
+}
+.testimonial-arrow-down {
+	border-top-color: $color_cerulean_approx;
+}
+.featured-box-secundary {
+	h4 {
+		color: $color_lochmara_approx;
+	}
+	.box-content {
+		border-top-color: $color_lochmara_approx;
+	}
+	i.icon-featured {
+		background-color: $color_lochmara_approx;
+	}
+}
+.shop {
+	ul.products li.product .onsale {
+		background-color: $color_lochmara_approx;
+		border-bottom-color: $color_allports_approx;
+	}
+	.star-rating span {
+		color: $color_lochmara_approx;
+	}
+	.cart-totals tr.total .amount {
+		color: $color_lochmara_approx;
+	}
+}
+p.drop-caps {
+	&:first-child:first-letter {
+		color: $color_lochmara_approx;
+	}
+	&.secundary:first-child:first-letter {
+		background-color: $color_lochmara_approx;
+	}
+}
+.sort-source-wrapper .nav > li.active > a {
+	color: $color_lochmara_approx;
+	&:hover {
+		color: $color_lochmara_approx;
+	}
+	&:focus {
+		color: $color_lochmara_approx;
+	}
+}
+.pagination > {
+	li > {
+		a {
+			color: $color_lochmara_approx;
+			&:hover {
+				color: $color_lochmara_approx;
+			}
+			&:focus {
+				color: $color_lochmara_approx;
+			}
+		}
+		span {
+			color: $color_lochmara_approx;
+			&:hover {
+				color: $color_lochmara_approx;
+			}
+			&:focus {
+				color: $color_lochmara_approx;
+			}
+		}
+	}
+	.active > {
+		a {
+			background-color: $color_lochmara_approx;
+			border-color: $color_lochmara_approx;
+			@extend %extend_1;
+			&:hover {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+				border-color: $color_cerulean_approx;
+				background-color: $color_cerulean_approx;
+			}
+			&:focus {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+				border-color: $color_deep_cerulean_approx;
+				background-color: $color_deep_cerulean_approx;
+			}
+			&:active {
+				border-color: $color_deep_cerulean_approx;
+				background-color: $color_deep_cerulean_approx;
+			}
+		}
+		span {
+			background-color: $color_lochmara_approx;
+			border-color: $color_lochmara_approx;
+			&:hover {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+			}
+			&:focus {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+			}
+		}
+	}
+}
+body.dark .pagination > {
+	li > {
+		a {
+			color: $color_lochmara_approx;
+			&:hover {
+				color: $color_lochmara_approx;
+			}
+			&:focus {
+				color: $color_lochmara_approx;
+			}
+		}
+		span {
+			color: $color_lochmara_approx;
+			&:hover {
+				color: $color_lochmara_approx;
+			}
+			&:focus {
+				color: $color_lochmara_approx;
+			}
+		}
+	}
+	.active > {
+		a {
+			background-color: $color_lochmara_approx;
+			border-color: $color_lochmara_approx;
+			@extend %extend_1;
+			&:hover {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+				border-color: $color_cerulean_approx;
+				background-color: $color_cerulean_approx;
+			}
+			&:focus {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+				border-color: $color_deep_cerulean_approx;
+				background-color: $color_deep_cerulean_approx;
+			}
+			&:active {
+				border-color: $color_deep_cerulean_approx;
+				background-color: $color_deep_cerulean_approx;
+			}
+		}
+		span {
+			background-color: $color_lochmara_approx;
+			border-color: $color_lochmara_approx;
+			&:hover {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+			}
+			&:focus {
+				background-color: $color_lochmara_approx;
+				border-color: $color_lochmara_approx;
+			}
+		}
+	}
+}
+.thumb-info-social-icons a {
+	background-color: $color_lochmara_approx;
+}
+.thumbnail .zoom {
+	background-color: $color_lochmara_approx;
+}
+.img-thumbnail .zoom {
+	background-color: $color_lochmara_approx;
+}
+i.icon-featured {
+	background-color: $color_lochmara_approx;
+}
+.parallax blockquote i.fa-quote-left {
+	color: $color_lochmara_approx;
+}
+blockquote.testimonial {
+	background: $color_cerulean_approx;
+}
+.pricing-table .most-popular {
+	border-color: $color_lochmara_approx;
+	h3 {
+		background-color: $color_lochmara_approx;
+	}
+}
+.recent-posts .date {
+	.month {
+		background-color: $color_lochmara_approx;
+	}
+	.day {
+		color: $color_lochmara_approx;
+	}
+}
+article.post .post-date {
+	.month {
+		background-color: $color_lochmara_approx;
+	}
+	.day {
+		color: $color_lochmara_approx;
+	}
+}
+.slider .tp-bannertimer {
+	background-color: $color_lochmara_approx;
+}
+.home-intro p em {
+	color: $color_dodger_blue_approx;
+}
+.home-concept strong {
+	color: $color_lochmara_approx;
+}
+#footer .footer-ribbon {
+	background: $color_lochmara_approx;
+	&:before {
+		border-right-color: $color_orient_approx;
+	}
+}
+html.boxed .body {
+	border-top-color: $color_lochmara_approx;
+}

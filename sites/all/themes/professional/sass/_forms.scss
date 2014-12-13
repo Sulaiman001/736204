@@ -1,0 +1,79 @@
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+#header {
+	input{
+		display:block;
+		float:left;
+		width:155px;
+		margin:0 11px 0 0;
+		padding:5px;
+		color:#4C4C4C;
+		background-color:#FFFFFF;
+		border:1px solid #396B86;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+	}
+	input#news_go{
+		width:auto;
+		height:auto;
+		margin:0;
+		padding:4px;
+		font-weight:bold;
+		text-transform:uppercase;
+		color:#FFFFFF;
+		background-color:#4D9FC7;
+		cursor:pointer;
+	}
+}
+#topbar input{
+	display:block;
+	float:left;
+	width:155px;
+	margin:0 5px 0 0;
+	padding:5px;
+	color:#B6B6B6;
+	background-color:#525252;
+	border:1px solid #343434;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#block-search-form .form-submit{
+	width:68px;
+	height:26px;
+	margin:0;
+	padding:4px 0;
+	text-transform:uppercase;
+	color:#FFFFFF;
+	background-color:#059BD8;
+	border-color:#396B86;
+	cursor:pointer;
+	font-weight:bold;
+}
+.form-submit{
+	background-color: #4d9fc7;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+	height: auto;
+	margin-right: 10px;
+	padding: 4px;
+	text-transform: uppercase;
+	width: auto;
+	border:1px none;
+}
+#container {
+	#respond{
+		display: block; width:100%;
+		input{width:170px; padding:2px; border:1px solid #CCCCCC; margin:5px 5px 0 0;}
+		textarea{width:98%; border:1px solid #CCCCCC; padding:2px; overflow:auto;}
+		p{margin:5px 0;}
+		#submit,#reset{
+			margin:0;
+			padding:5px;
+			color:#666666;
+			background-color:#F7F7F7;
+			border:1px solid #CCCCCC;
+			cursor:pointer;
+		}
+	}
+}

@@ -1,0 +1,1621 @@
+.appear-animation {
+	opacity: 0;
+	animation-fill-mode: both;
+	animation-duration: 1s;
+}
+.appear-animation-visible {
+	opacity: 1;
+}
+.animated {
+	animation-fill-mode: both;
+	animation-duration: 1s;
+}
+@-moz-keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+@-o-keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	75% {
+		opacity: 0;
+	}
+}
+.flash {
+	animation-name: flash;
+}
+@-webkit-keyframes shake {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	10% {
+	}
+	30% {
+	}
+	50% {
+	}
+	70% {
+	}
+	90% {
+	}
+	20% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+}
+@-moz-keyframes shake {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	10% {
+	}
+	30% {
+	}
+	50% {
+	}
+	70% {
+	}
+	90% {
+	}
+	20% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+}
+@-o-keyframes shake {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	10% {
+	}
+	30% {
+	}
+	50% {
+	}
+	70% {
+	}
+	90% {
+	}
+	20% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+}
+@keyframes shake {
+	0% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+		opacity: 1;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+		opacity: 1;
+	}
+	10% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-10px);
+	}
+	30% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-10px);
+	}
+	50% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-10px);
+	}
+	70% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-10px);
+	}
+	90% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-10px);
+	}
+	20% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(10px);
+	}
+	40% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(10px);
+	}
+	60% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(10px);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(10px);
+	}
+}
+.shake {
+	animation-name: shake;
+}
+@-webkit-keyframes bounce {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	40% {
+	}
+	60% {
+	}
+}
+@-moz-keyframes bounce {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	40% {
+	}
+	60% {
+	}
+}
+@-o-keyframes bounce {
+	0% {
+		opacity: 1;
+	}
+	20% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 1;
+	}
+	80% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+	40% {
+	}
+	60% {
+	}
+}
+@keyframes bounce {
+	0% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+	20% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+	50% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+	40% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-30px);
+	}
+	60% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-15px);
+	}
+}
+.bounce {
+	animation-name: bounce;
+}
+@-webkit-keyframes tada {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	50% {
+	}
+	70% {
+	}
+	90% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes tada {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	50% {
+	}
+	70% {
+	}
+	90% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes tada {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	50% {
+	}
+	70% {
+	}
+	90% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes tada {
+	0% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1);
+	}
+	10% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(0.9) rotate(-3deg);
+	}
+	20% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(0.9) rotate(-3deg);
+	}
+	30% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(3deg);
+	}
+	50% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(3deg);
+	}
+	70% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(3deg);
+	}
+	90% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(3deg);
+	}
+	40% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(-3deg);
+	}
+	60% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(-3deg);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1) rotate(-3deg);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1) rotate(0);
+		opacity: 1;
+	}
+}
+.tada {
+	animation-name: tada;
+}
+@-webkit-keyframes swing {
+	20% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes swing {
+	20% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes swing {
+	20% {
+	}
+	40% {
+	}
+	60% {
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes swing {
+	20% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(15deg);
+	}
+	40% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(-10deg);
+	}
+	60% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(5deg);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(-5deg);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0deg);
+		opacity: 1;
+	}
+}
+.swing {
+	//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+	transform-origin: top center;
+	animation-name: swing;
+}
+@-webkit-keyframes wobble {
+	0% {
+	}
+	15% {
+	}
+	30% {
+	}
+	45% {
+	}
+	60% {
+	}
+	75% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes wobble {
+	0% {
+	}
+	15% {
+	}
+	30% {
+	}
+	45% {
+	}
+	60% {
+	}
+	75% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes wobble {
+	0% {
+	}
+	15% {
+	}
+	30% {
+	}
+	45% {
+	}
+	60% {
+	}
+	75% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes wobble {
+	0% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0%);
+	}
+	15% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-25%) rotate(-5deg);
+	}
+	30% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(20%) rotate(3deg);
+	}
+	45% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-15%) rotate(-3deg);
+	}
+	60% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(10%) rotate(2deg);
+	}
+	75% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-5%) rotate(-1deg);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+.wobble {
+	animation-name: wobble;
+}
+@-webkit-keyframes wiggle {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	40% {
+	}
+	50% {
+	}
+	60% {
+	}
+	70% {
+	}
+	80% {
+	}
+	90% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes wiggle {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	40% {
+	}
+	50% {
+	}
+	60% {
+	}
+	70% {
+	}
+	80% {
+	}
+	90% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes wiggle {
+	0% {
+	}
+	10% {
+	}
+	20% {
+	}
+	30% {
+	}
+	40% {
+	}
+	50% {
+	}
+	60% {
+	}
+	70% {
+	}
+	80% {
+	}
+	90% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes wiggle {
+	0% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(9deg);
+	}
+	10% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(-8deg);
+	}
+	20% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(7deg);
+	}
+	30% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(-6deg);
+	}
+	40% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(5deg);
+	}
+	50% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(-4deg);
+	}
+	60% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(3deg);
+	}
+	70% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(-2deg);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(1deg);
+	}
+	90% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(0deg);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: skewX(0deg);
+		opacity: 1;
+	}
+}
+.wiggle {
+	animation-name: wiggle;
+	animation-timing-function: ease-in;
+}
+@-webkit-keyframes pulse {
+	0% {
+	}
+	50% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes pulse {
+	0% {
+	}
+	50% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes pulse {
+	0% {
+	}
+	50% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes pulse {
+	0% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1);
+	}
+	50% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.1);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+.pulse {
+	animation-name: pulse;
+}
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.fadeIn {
+	animation-name: fadeIn;
+}
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(20px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+	}
+}
+.fadeInUp {
+	animation-name: fadeInUp;
+}
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-20px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+	}
+}
+.fadeInDown {
+	animation-name: fadeInDown;
+}
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-20px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+	}
+}
+.fadeInLeft {
+	animation-name: fadeInLeft;
+}
+@-webkit-keyframes fadeInRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInRight {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(20px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+	}
+}
+.fadeInRight {
+	animation-name: fadeInRight;
+}
+@-webkit-keyframes fadeInUpBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInUpBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInUpBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInUpBig {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(2000px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+	}
+}
+.fadeInUpBig {
+	animation-name: fadeInUpBig;
+}
+@-webkit-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInDownBig {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-2000px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+	}
+}
+.fadeInDownBig {
+	animation-name: fadeInDownBig;
+}
+@-webkit-keyframes fadeInLeftBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInLeftBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInLeftBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInLeftBig {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-2000px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+	}
+}
+.fadeInLeftBig {
+	animation-name: fadeInLeftBig;
+}
+@-webkit-keyframes fadeInRightBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes fadeInRightBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes fadeInRightBig {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInRightBig {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(2000px);
+	}
+	100% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+	}
+}
+.fadeInRightBig {
+	animation-name: fadeInRightBig;
+}
+@-webkit-keyframes bounceIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	70% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes bounceIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	70% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes bounceIn {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	70% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes bounceIn {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(0.3);
+	}
+	50% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1.05);
+	}
+	70% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(0.9);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+.bounceIn {
+	animation-name: bounceIn;
+}
+@-webkit-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes bounceInUp {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes bounceInUp {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(2000px);
+	}
+	60% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-30px);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(10px);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.bounceInUp {
+	animation-name: bounceInUp;
+}
+@-webkit-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-2000px);
+	}
+	60% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(30px);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(-10px);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+.bounceInDown {
+	animation-name: bounceInDown;
+}
+@-webkit-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes bounceInLeft {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-2000px);
+	}
+	60% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(30px);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-10px);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+.bounceInLeft {
+	animation-name: bounceInLeft;
+}
+@-webkit-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes bounceInRight {
+	0% {
+		opacity: 0;
+	}
+	60% {
+		opacity: 1;
+	}
+	80% {
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes bounceInRight {
+	0% {
+		opacity: 0;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(2000px);
+	}
+	60% {
+		opacity: 1;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(-30px);
+	}
+	80% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(10px);
+	}
+	100% {
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+.bounceInRight {
+	animation-name: bounceInRight;
+}
+@-webkit-keyframes rotateIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes rotateIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes rotateIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes rotateIn {
+	0% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: center center;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(-200deg);
+		opacity: 0;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: center center;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+.rotateIn {
+	animation-name: rotateIn;
+}
+@-webkit-keyframes rotateInUpLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes rotateInUpLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes rotateInUpLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes rotateInUpLeft {
+	0% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: left bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(90deg);
+		opacity: 0;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: left bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+.rotateInUpLeft {
+	animation-name: rotateInUpLeft;
+}
+@-webkit-keyframes rotateInDownLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes rotateInDownLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes rotateInDownLeft {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes rotateInDownLeft {
+	0% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: left bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(-90deg);
+		opacity: 0;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: left bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+.rotateInDownLeft {
+	animation-name: rotateInDownLeft;
+}
+@-webkit-keyframes rotateInUpRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes rotateInUpRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes rotateInUpRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes rotateInUpRight {
+	0% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: right bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(-90deg);
+		opacity: 0;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: right bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+.rotateInUpRight {
+	animation-name: rotateInUpRight;
+}
+@-webkit-keyframes rotateInDownRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-moz-keyframes rotateInDownRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@-o-keyframes rotateInDownRight {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes rotateInDownRight {
+	0% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: right bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(90deg);
+		opacity: 0;
+	}
+	100% {
+		//Instead of the line below you could use @includetransform-origin($origin-x, $origin-y, $origin-z, $only3d)
+		transform-origin: right bottom;
+		//Instead of the line below you could use @includetransform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(0);
+		opacity: 1;
+	}
+}
+.rotateInDownRight {
+	animation-name: rotateInDownRight;
+}

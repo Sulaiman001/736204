@@ -1,0 +1,7 @@
+#logo img {position:relative;left:-16px;}
+.sidebar h2 {font-size:20px !important;}
+#secondary-menu-links{background:#064771;float:right;padding: 0 0.75em 0 0.75em;}
+#secondary-menu-links li{float:left;list-style-image:none;list-style-type: none;margin:0;padding:0;}
+ul.menu li{margin:0px;}
+#logo{padding:0px !important;}
+#secondary-menu{position:absolute;}

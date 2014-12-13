@@ -1,0 +1,50 @@
+name = TMW Professional Themes
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+plugins[panels][layouts] = layouts
+settings[tmwpro_exclude_title] = Pricing
+
+stylesheets[all][] = vendor/bootstrap/bootstrap.css
+stylesheets[all][] = vendor/fontawesome/css/font-awesome.css
+stylesheets[all][] = vendor/owlcarousel/owl.carousel.css
+stylesheets[all][] = vendor/owlcarousel/owl.theme.css
+stylesheets[all][] = vendor/magnific-popup/magnific-popup.css
+stylesheets[all][] = vendor/rs-plugin/css/settings.css
+stylesheets[all][] = vendor/circle-flip-slideshow/css/component.css
+stylesheets[all][] = css/import.css
+stylesheets[all][] = css/style.css
+
+scripts[] = vendor/jquery/jquery.js
+scripts[] = vendor/jquery.appear/jquery.appear.js
+scripts[] = vendor/jquery.easing/jquery.easing.js
+scripts[] = vendor/jquery-cookie/jquery-cookie.js
+scripts[] = vendor/bootstrap/bootstrap.js
+scripts[] = vendor/common/common.js
+scripts[] = vendor/jquery.validation/jquery.validation.js
+scripts[] = vendor/jquery.stellar/jquery.stellar.js
+scripts[] = vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js
+scripts[] = vendor/jquery.gmap/jquery.gmap.js
+scripts[] = vendor/twitterjs/twitter.js
+scripts[] = vendor/isotope/jquery.isotope.js
+scripts[] = vendor/owlcarousel/owl.carousel.js
+scripts[] = vendor/jflickrfeed/jflickrfeed.js
+scripts[] = vendor/magnific-popup/jquery.magnific-popup.js
+scripts[] = vendor/vide/jquery.vide.js
+scripts[] = js/theme.js
+scripts[] = vendor/rs-plugin/js/jquery.themepunch.tools.min.js
+scripts[] = vendor/rs-plugin/js/jquery.themepunch.revolution.min.js
+scripts[] = vendor/circle-flip-slideshow/js/jquery.flipshow.js
+scripts[] = js/views/view.home.js
+scripts[] = js/custom.js
+scripts[] = js/theme.init.js
+
+regions[topsearch] = Top Search
+regions[topmenu] = Top Menu
+regions[social] = Social
+regions[header] = Header
+regions[banner] = Banner
+regions[content] = Content
+regions[footer] = Footer
