@@ -87,3 +87,12 @@ div.image-widget-data * {
 	margin-right: 10px;
 	float: left;
 }
+.search-results {
+	padding:0px;
+}
+.search-results .search-snippet-info {
+	padding-left:0px !important;
+}
+.region-topsearch #search-block-form {
+	display:none;
+}
