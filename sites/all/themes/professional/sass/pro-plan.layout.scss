@@ -522,6 +522,19 @@ div.wrapper{
 		}
 	}
 }
+div.submitted {
+	font-weight:bold;
+	position:relative;
+	top:-14px;
+	font-size:11px;
+}
+#comments div.submitted {
+	font-weight:normal !important;
+	top:0px !important;
+}
+.file * {
+	display:inline;
+}
 .node-readmore a{
 	display:block;
 	width:100%;

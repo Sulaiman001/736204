@@ -49,6 +49,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54636f1c538706af" async="async"></script>
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?> id="top">
   <div id="skip-link">

@@ -46,13 +46,15 @@
 <!DOCTYPE html>
 <html>
 <head profile="<?php print $grddl_profile; ?>">
-	<!-- Mobile Metas -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Web Fonts  -->
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Web Fonts  -->
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54636f1c538706af" async="async"></script>
 	<!-- Head Libs -->
 	<script src="/sites/default/themes/tmwpro/vendor/modernizr/modernizr.js"></script>
 	<!--[if IE]>
@@ -70,6 +72,6 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
-	<?php print $scripts; ?>
+  <?php print $scripts; ?>
 </body>
 </html>
