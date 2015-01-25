@@ -1,0 +1,19 @@
+#!/bin/bash
+clear
+BASEURL="dev.tmwserver.com"
+dir="/home/$USER/web"
+GIT="http://git.drupal.org/project/drupal.git"
+echo "CREATE DATABASE IF NOT EXISTS dev_$USER" | mysql -u root
+echo -e "\e[0;32m-------------------------------------------------------\e[0m"
+echo -e "\e[1;36mYour development URL  :\e[0m \e[1;33mhttp://$USER.$BASEURL\e[0m"
+echo -e "\e[1;36mYour development DB   :\e[0m \e[1;33mdev_$USER\e[0m"
+echo -e "\e[1;36mYour development path :\e[0m \e[1;33m$dir/dev\e[0m"
+echo -e "\e[0;32m-------------------------------------------------------\e[0m"
+if [[ ! -e $dir ]]; then
+  mkdir $dir
+  git clone $GIT dev
+else
+  rm -rf $dir/dev
+  cd $dir
+  git clone $GIT dev
+fi
