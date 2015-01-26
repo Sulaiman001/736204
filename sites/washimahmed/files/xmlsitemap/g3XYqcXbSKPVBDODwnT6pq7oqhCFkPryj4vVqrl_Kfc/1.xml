@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="//www.washimahmed.com/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://www.washimahmed.com/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://www.washimahmed.com/panel/blog</loc><lastmod>2014-11-22T12:26Z</lastmod><changefreq>yearly</changefreq></url>
+<url><loc>http://www.washimahmed.com/webform/contact-me</loc><lastmod>2015-01-13T11:57Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/installing-memcache-drupal</loc><lastmod>2015-01-14T08:43Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/clear-cache-memcache</loc><lastmod>2015-01-14T08:48Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/installing-varnish-cache-system-drupal-7</loc><lastmod>2015-01-14T10:06Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/getting-started-sass-and-compass</loc><lastmod>2015-01-14T11:05Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/drupal-8-will-have-something-everyone-love</loc><lastmod>2015-01-15T15:44Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/apply-permission-create-full-projects</loc><lastmod>2015-01-13T11:50Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/page/about-me</loc><lastmod>2015-01-16T06:00Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/tags/how-promote-drupal-sandbox-project-live-project</loc></url>
+<url><loc>http://www.washimahmed.com/tags/installing-compass</loc></url>
+<url><loc>http://www.washimahmed.com/tags/installing-sass-and-compass</loc></url>
+<url><loc>http://www.washimahmed.com/tags/how-configure-sass-and-compass</loc></url>
+<url><loc>http://www.washimahmed.com/tags/how-create-drupal-custom-views</loc></url>
+<url><loc>http://www.washimahmed.com/tags/create-drupal-views-plugins</loc></url>
+<url><loc>http://www.washimahmed.com/tags/drupal-custom-views-creation</loc></url>
+<url><loc>http://www.washimahmed.com/tags/how-create-drupal-custom-token</loc></url>
+<url><loc>http://www.washimahmed.com/tags/drupal-custom-token-creation</loc></url>
+<url><loc>http://www.washimahmed.com/tags/drupal-custom-token-example</loc></url>
+<url><loc>http://www.washimahmed.com/tags/drupal-sandbox-live</loc></url>
+<url><loc>http://www.washimahmed.com/tags/clear-memcache</loc></url>
+<url><loc>http://www.washimahmed.com/tags/purge-memcache-cache</loc></url>
+<url><loc>http://www.washimahmed.com/tags/how-delete-memcache-cache</loc></url>
+<url><loc>http://www.washimahmed.com/tags/varnish-install</loc></url>
+<url><loc>http://www.washimahmed.com/tags/how-install-varnish-ubuntu</loc></url>
+<url><loc>http://www.washimahmed.com/tags/how-install-varnish-centos</loc></url>
+<url><loc>http://www.washimahmed.com/tags/installing-sass</loc></url>
+<url><loc>http://www.washimahmed.com/users/washimahmed</loc></url>
+<url><loc>http://www.washimahmed.com/users/test</loc></url>
+<url><loc>http://www.washimahmed.com/users/footballfuneral</loc></url>
+<url><loc>http://www.washimahmed.com/article/create-drupal-custom-views</loc><lastmod>2015-01-19T11:43Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://www.washimahmed.com/article/drupal-custom-token</loc><lastmod>2015-01-19T09:38Z</lastmod><changefreq>weekly</changefreq></url>
+</urlset>
